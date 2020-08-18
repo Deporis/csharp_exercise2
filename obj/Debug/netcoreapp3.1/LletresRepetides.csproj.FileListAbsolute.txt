@@ -1,0 +1,12 @@
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/bin/Debug/netcoreapp3.1/LletresRepetides.deps.json
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/bin/Debug/netcoreapp3.1/LletresRepetides.runtimeconfig.json
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/bin/Debug/netcoreapp3.1/LletresRepetides.runtimeconfig.dev.json
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/bin/Debug/netcoreapp3.1/LletresRepetides.dll
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/bin/Debug/netcoreapp3.1/LletresRepetides.pdb
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/obj/Debug/netcoreapp3.1/LletresRepetides.csprojAssemblyReference.cache
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/obj/Debug/netcoreapp3.1/LletresRepetides.AssemblyInfoInputs.cache
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/obj/Debug/netcoreapp3.1/LletresRepetides.AssemblyInfo.cs
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/obj/Debug/netcoreapp3.1/LletresRepetides.csproj.CoreCompileInputs.cache
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/obj/Debug/netcoreapp3.1/LletresRepetides.dll
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/obj/Debug/netcoreapp3.1/LletresRepetides.pdb
+/Users/alfred/Desktop/IT_Academy/CSHARP/LletresRepetides/obj/Debug/netcoreapp3.1/LletresRepetides.genruntimeconfig.cache
