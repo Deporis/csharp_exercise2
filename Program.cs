@@ -36,24 +36,41 @@ namespace LletresRepetides
                 {
                     Console.WriteLine(i);
                 }
-                Console.WriteLine("\nBye");
+                
+                Fase2(myName);
+
             }
             else if(answer == "No" | answer =="no") Console.WriteLine($"\nOk then, your name is {name}");
             else Console.WriteLine("You did not enter a yes or no. The program ends here, try again");
-            
-            Fase2();
         }
-        static void Fase2()
+        static void Fase2(char [] myName)
         {
-            Console.WriteLine("\nHere are your name's characters whether is a vowel or a consonant:");
+            Console.WriteLine("\nAnd here are your name's characters whether is a vowel or a consonant:");
             List<char> theName = new List<char>(myName);
+            
+            Dictionary<string, int> repeated = new Dictionary<string, int>();
+
             foreach(char chara in theName)
             {
                 string vowel = "aeiou";
                 string letter = chara.ToString();
+                
                 if(vowel.Contains(letter)) Console.WriteLine(letter + " is VOWEL"); // Contains is like "in" in Python
                 else Console.WriteLine(letter + " is CONSONANT");
+                
+                if (repeated.ContainsKey(letter)) repeated[letter] += 1; // we UPDATE SUMMING 1 the lasta value of the key
+                else repeated.Add(letter, 1);
+            }
+            Fase3(repeated);
+        }
+        static void Fase3(Dictionary<string, int> repeated)
+        {
+            Console.WriteLine("\nYour name has:");
+            foreach(KeyValuePair<string, int> repeat in repeated)
+            {
+                Console.WriteLine(repeat.Value + " " + repeat.Key);
             }
         }
+        
     }
 }
